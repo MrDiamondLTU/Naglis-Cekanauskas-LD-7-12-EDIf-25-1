@@ -191,3 +191,12 @@ p {
   text-align: center;
   font-style: italic;
 }
+/* Pradžios puslapio "Susisiekti" mygtukas – baltas tekstas */
+.hero .hero-actions .btn.btn-outline {
+  color: #ffffff !important;
+  border-color: #4fc3f7;
+}
+.hero .hero-actions .btn.btn-outline:hover {
+  background: #4fc3f7;
+  color: #0b1419 !important;
+}
