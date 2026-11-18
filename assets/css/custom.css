@@ -70,7 +70,7 @@ p {
 
 #about .container > .row,
 #resume .resume-item,
-#portfolio .portfolio-item {
+#portfolio .portfolio-card {
   background: #15242c;
   border: 1px solid rgba(79, 195, 247, 0.25);
   border-radius: 16px;
@@ -185,4 +185,9 @@ p {
 }
 .services-table tbody tr:hover > * {
   background: #27495a !important;
+}
+.services-table caption {
+  color: #a9b8c0;
+  text-align: center;
+  font-style: italic;
 }
