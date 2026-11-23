@@ -367,3 +367,13 @@ p {
   0%, 100% { transform: scale(1) rotate(0deg); }
   50%      { transform: scale(1.5) rotate(45deg); }
 }
+/* Kontaktų formos "Siųsti žinutę" mygtukas – kaip "Susisiekti" */
+.contact .contact-form .btn {
+  background: transparent;
+  color: #ffffff !important;
+  border-color: #4fc3f7;
+}
+.contact .contact-form .btn:hover {
+  background: #4fc3f7;
+  color: #0b1419 !important;
+}
